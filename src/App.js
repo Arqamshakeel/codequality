@@ -2,10 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App () {
-
+  var a = "hello"
+  let b = "lol"
   function hello()
   {
-    
+
+  }
+  const test = ()=>{
+    return null;
   }
   return (
     <div className="App">
