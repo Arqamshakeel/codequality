@@ -1,17 +1,18 @@
-name: Lint Code Base
+name: reviewdog
 on: [pull_request]
 jobs:
-  build:
-    name: Lint Code Base
+  reviewdog:
+    name: reviewdog
     runs-on: ubuntu-latest
     steps:
-   
-      - uses: actions/checkout@v2
-
-      - name: Lint Code Base
-        uses: github/super-linter@v4
+      # ...
+      - uses: reviewdog/action-setup@v1
         with:
-          reporter: github-pr-review # Change reporter.
+          reviewdog_version: latest # Optional. [latest,nightly,v.X.Y.Z]
+      - name: Run reviewdog
         env:
-          DEFAULT_BRANCH: github-linter
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          reviewdog -reporter=github-pr-check -runners=golint,govet
+          # or
+          reviewdog -reporter=github-pr-review -runners=golint,govet
