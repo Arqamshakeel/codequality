@@ -1,7 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { useState, useEffect } from "react";
 
 function App () {
+
+  const [counter, setCounter] = useState(1);
+
+
   var a = "hello"
   let b = "lol"
   function hello()
