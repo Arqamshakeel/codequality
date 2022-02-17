@@ -10,6 +10,8 @@ jobs:
 
       - name: Lint Code Base
         uses: github/super-linter@v4
+        with:
+          reporter: github-pr-review # Change reporter.
         env:
           DEFAULT_BRANCH: github-linter
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
