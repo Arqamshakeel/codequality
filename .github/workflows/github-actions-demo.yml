@@ -1,2 +1,2 @@
-- name: Code review action
-  uses: moneyforward/code-review-action@v0.1.0
+name: Code review action
+uses: moneyforward/code-review-action@v0.1.0
