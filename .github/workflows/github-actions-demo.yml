@@ -1,11 +1,11 @@
-name: "Assert Branch Naming Convention"
-on: pull_request
+name: Example
+
+on: push
 
 jobs:
-  branch-naming-rules:
+  example:
+    name: Find Trailing Whitespace
     runs-on: ubuntu-latest
     steps:
-      - uses: deepakputhraya/action-branch-name@master
-        with:
-          allowed_prefixes: "feat/,bug/"
-          ignore: master,develo
+      - uses: actions/checkout@v2
+      - uses: ocular-d/trailing-spaces@main
