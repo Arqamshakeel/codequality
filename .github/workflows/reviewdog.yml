@@ -10,4 +10,5 @@ jobs:
         with:
           reporter: github-pr-review # Change reporter.
           eslint_flags: 'src/'
-          level: error
+          level: warning
+          fail_on_error: true
