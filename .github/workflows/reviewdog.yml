@@ -13,4 +13,3 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           src: src
           eslint-format: table
-          project-root: "../../.eslintrc.json"
