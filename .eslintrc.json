@@ -26,7 +26,7 @@
           "files": ["bin/*.js", "lib/*.js"],
           "excludedFiles": "*.test.js",
           "rules": {
-            "quotes": ["info", "single"]
+            "quotes": ["off", "single"]
           }
         }
       ]
