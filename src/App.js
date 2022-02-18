@@ -9,35 +9,8 @@ const test = ()=>{
   debugger;
 }
 
-const helloWorld = () =>{
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-  console.log("");
-}
+
+
   
   return (
     <div className="App">
