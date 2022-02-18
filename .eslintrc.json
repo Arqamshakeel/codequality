@@ -20,7 +20,7 @@
     "rules": {
         "semi": ["error", "always"],
         "max-lines": ["error", { "max": 200, "skipBlankLines": true, "skipComments": true }],
-        "camelcase": ["error","always"]
+        "camelcase": ["error", {"properties": "always"}]
     },
     "ignorePatterns": ["src/**/*.test.js"]
 }
