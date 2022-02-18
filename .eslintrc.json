@@ -21,13 +21,5 @@
         "semi": ["error", "always"],
         "max-lines": ["error", { "max": 200, "skipBlankLines": true, "skipComments": true }]
     },
-    "overrides": [
-        {
-          "excludedFiles": "*.test.js",
-          "files": [""],
-          "rules": {
-            "quotes": ["off", "single"]
-          }
-        }
-      ]
+    "ignorePatterns": ["src/**/*.test.js"]
 }
