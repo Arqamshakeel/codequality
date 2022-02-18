@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.svg"
 import "./App.css";
 import { useState, useEffect } from "react";
 
@@ -14,7 +14,7 @@ function App () {
 
   }
   const test = ()=>{
-    return null;
+    return null
   }
   return (
     <div className="App">
@@ -37,4 +37,4 @@ function App () {
   );
 }
 
-export default App;
+export default App
