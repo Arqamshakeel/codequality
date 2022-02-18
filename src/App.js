@@ -5,8 +5,39 @@ import React from 'react';
 function App () {
 const hello_world = "notcamel"
 
+const test = ()=>{
+  debugger;
+}
 
-const helloWorld = "camel"
+const helloWorld = () =>{
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+  console.log("");
+}
   
   return (
     <div className="App">
