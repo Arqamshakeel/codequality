@@ -23,7 +23,7 @@
         "camelcase": ["error", {"properties": "always"}],
         "max-lines-per-function": ["error", { "max": 10 }],
         "no-debugger": "error",
-        "no-foo-identifier": ["error", "always"]
+        "no-foo-identifier": "error"
     },
     "ignorePatterns": ["src/**/*.test.js"]
 }
