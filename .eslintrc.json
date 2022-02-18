@@ -23,8 +23,8 @@
     },
     "overrides": [
         {
-          "files": [""],
           "excludedFiles": "*.test.js",
+          "files": [""],
           "rules": {
             "quotes": ["off", "single"]
           }
