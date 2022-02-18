@@ -3,7 +3,7 @@ import "./App.css";
 import React from 'react';
 
 function App () {
-const foo = "hello";
+const foo = "hello"
   
   return (
     <div className="App">
