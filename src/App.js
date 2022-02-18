@@ -1,21 +1,7 @@
-import logo from "./logo.svg"
+import logo from "./logo.svg";
 import "./App.css";
-import { useState, useEffect } from "react";
 
 function App () {
-
-  const [counter, setCounter] = useState(1);
-
-
-  var a = "hello"
-  let b = "lol"
-  function hello()
-  {
-
-  }
-  const test = ()=>{
-    return null
-  }
   return (
     <div className="App">
       <header className="App-header">
@@ -37,4 +23,4 @@ function App () {
   );
 }
 
-export default App
+export default App;
