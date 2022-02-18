@@ -22,7 +22,8 @@
         "max-lines": ["error", { "max": 200, "skipBlankLines": true, "skipComments": true }],
         "camelcase": ["error", {"properties": "always"}],
         "max-lines-per-function": ["error", { "max": 10 }],
-        "no-debugger": ["error"]
+        "no-debugger": "error",
+        "no-foo-identifier": ["error", "always"]
     },
     "ignorePatterns": ["src/**/*.test.js"]
 }
