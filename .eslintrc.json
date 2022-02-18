@@ -23,7 +23,7 @@
     },
     "overrides": [
         {
-          "files": ["bin/*.js", "lib/*.js"],
+          "files": [""],
           "excludedFiles": "*.test.js",
           "rules": {
             "quotes": ["off", "single"]
